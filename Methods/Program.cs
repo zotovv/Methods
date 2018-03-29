@@ -8,9 +8,9 @@ namespace Methods
 {
     class Program
     {
-        static int Calculate(int a, int b, int c)
+        static void Calculate(int a, int b, int c)
         {
-            return (a + b + c) / 3;
+            Console.WriteLine("Числа {0}, {1}, {2} среднее арифметическое {3}", a, b, c, (a + b + c) / 3);
         }
 
 
@@ -31,7 +31,7 @@ namespace Methods
             string operand3 = Console.ReadLine();
             int multiplier3 = Int32.Parse(operand3);
 
-            Console.WriteLine(Calculate(multiplier1, multiplier2, multiplier3));
+            Calculate(multiplier1, multiplier2, multiplier3);
 
 
             //Delay

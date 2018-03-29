@@ -10,7 +10,7 @@ namespace Methods
     {
         static void Calculate(int a, int b, int c)
         {
-            Console.WriteLine("Числа {0}, {1}, {2} среднее арифметическое {3}", a, b, c, (a + b + c) / 3);
+            Console.WriteLine("Числа {0}, {1}, {2}; среднее арифметическое - {3}", a, b, c, (a + b + c) / 3);
         }
 
 
@@ -20,6 +20,8 @@ namespace Methods
 
             string operand1 = Console.ReadLine();
             int multiplier1 = Int32.Parse(operand1);
+
+            // int multiplier1 = Convert.ToInt32(Console.ReadLine());   альтернативный вариант 
 
             Console.WriteLine("Введите второе число: ");
 

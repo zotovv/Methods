@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp2
+namespace Factorial
 {
     class Program
     {
@@ -21,11 +21,12 @@ namespace ConsoleApp2
             }
         }
 
-
         static void Main(string[] args)
         {
-            int operand1 = 3;
-            Console.WriteLine(Factorial(operand1));
+            Console.WriteLine("Введите число: ");
+            int operand1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Факториал числа {0} равен {1}", operand1, Factorial(operand1));
 
             Console.ReadKey();
         }

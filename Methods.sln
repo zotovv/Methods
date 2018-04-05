@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Converter\Conv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckingOfNumber", "CheckingOfNumber\CheckingOfNumber.csproj", "{E6953DFB-ECAD-4554-97DC-49DB7D43020E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkRef", "ConsoleApp2\WorkRef.csproj", "{711E009F-B9D5-4B57-BB73-B7D933196555}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E6953DFB-ECAD-4554-97DC-49DB7D43020E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6953DFB-ECAD-4554-97DC-49DB7D43020E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6953DFB-ECAD-4554-97DC-49DB7D43020E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711E009F-B9D5-4B57-BB73-B7D933196555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711E009F-B9D5-4B57-BB73-B7D933196555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711E009F-B9D5-4B57-BB73-B7D933196555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711E009F-B9D5-4B57-BB73-B7D933196555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
